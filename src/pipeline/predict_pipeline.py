@@ -13,8 +13,8 @@ class PredictPipeline:
         try:
             #model_path=os.path.join(r'E:\Azure_ML\Projects_ML\src\components\artifacts','model.pkl')
             #preprocessor_path=os.path.join(r'E:\Azure_ML\Projects_ML\src\components\artifacts','preprocessor.pkl')
-            model_path=('E:\\Azure_ML\\Projects_ML\\src\\components\\artifacts\\model.pkl')
-            preprocessor_path=('E:\\Azure_ML\\Projects_ML\\src\\components\\artifacts\\proprocessor.pkl')
+            model_path=('/home/leon/Documents/ml_ProjectRepos/MLOps_Docker_Aws/src/components/artifacts/model.pkl')
+            preprocessor_path=('/home/leon/Documents/ml_ProjectRepos/MLOps_Docker_Aws/src/components/artifacts/proprocessor.pkl')
             print("Before Loading")
             model=load_object(file_path=model_path)
             preprocessor=load_object(file_path=preprocessor_path)
