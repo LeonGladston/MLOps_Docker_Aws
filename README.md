@@ -8,3 +8,5 @@ https://docs.github.com/en/repositories/creating-and-managing-repositories/dupli
 ""Git: cloning repository into new repository""
 
 https://stackoverflow.com/questions/17546246/git-cloning-repository-into-new-repository
+
+use version sklearn version 1.0.2
